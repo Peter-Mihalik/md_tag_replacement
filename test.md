@@ -1,8 +1,0 @@
-FIrst
-second
-***
-***
-
-Tags: [[cpp]]
-Tags: [[cpp]] [[linux]] [[ideas]]
-Tags:   [[cpp]]  [[linux]][[ideas]]
