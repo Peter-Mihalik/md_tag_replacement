@@ -14,9 +14,11 @@
   - place executable to directory containing .mds you want to modify
   - all .md files are found, "Tags: " line is found and "[[cpp]]" links are replaced with "\#cpp"
   - program creates new files with .md.new extension
-  - all files have to be replaced manually (rm *.md) - create backup first
+  - all files have to be replaced manually - create backup first
+  ```rm *.md```   
   - new files have to renamed manually
   ```
+  # Rename .md.new files
   for file in *.md.new; do
     mv "$file" "${file%.new}"
   done
